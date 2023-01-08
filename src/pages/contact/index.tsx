@@ -63,6 +63,7 @@ const Contact = () => {
           <input
             className={styles['p-contact-form__name-form']}
             type="text"
+            placeholder="名前を入力して下さい。"
             onChange={(event) => textValidation(event)}
           ></input>
           <p className={styles['p-contact-form__name-validation']}>
@@ -74,6 +75,7 @@ const Contact = () => {
           <input
             className={styles['p-contact-form__email-form']}
             type="email"
+            placeholder="メールアドレスを入力して下さい。"
             onChange={(event) => emailValidation(event)}
           ></input>
           <p className={styles['p-contact-form__email-validation']}>
