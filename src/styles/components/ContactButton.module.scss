@@ -1,0 +1,27 @@
+.c-contact-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.c-contact-button {
+  background-color: blue;
+  border-bottom: 5px solid darkblue;
+  color: white;
+  padding: 5px 30px;
+
+  &:hover {
+    background-color: rgb(90 90 255);
+    border-bottom: 2px solid darkblue;
+    margin-top: 3px;
+  }
+
+  &:disabled {
+    background-color: lightgray;
+    border-bottom: 5px solid gray;
+  }
+
+  &:disabled:hover {
+    cursor: not-allowed;
+    margin-top: 0;
+  }
+}

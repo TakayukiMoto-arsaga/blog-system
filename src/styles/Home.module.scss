@@ -1,0 +1,27 @@
+.p-home-main {
+  padding: 80px 0 30px;
+  text-align: center;
+}
+
+.p-home-title {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.p-home-link {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.p-home-article__ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.p-home-article__link {
+  &:hover {
+    color: blue;
+  }
+}

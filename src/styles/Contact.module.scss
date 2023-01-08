@@ -1,0 +1,77 @@
+.p-contact-main {
+  padding: 75px 0 20px;
+}
+
+.p-contact-title {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.p-contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.p-contact-form__name-title {
+  align-items: baseline;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  margin-bottom: -15px;
+}
+
+.p-contact-form__name-form {
+  border: 2px solid blue;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 5px 10px;
+  width: 200px;
+
+  &:focus {
+    border: 2px solid orange;
+  }
+}
+
+.p-contact-form__name-validation {
+  color: red;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+.p-contact-form__gender-title {
+  font-weight: bold;
+  margin-bottom: -15px;
+  text-align: center;
+}
+
+.p-contact-form__mail-title {
+  font-weight: bold;
+  margin-bottom: -15px;
+  text-align: center;
+}
+
+.p-contact-form__email-form {
+  border: 2px solid blue;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 5px 10px;
+  width: 290px;
+
+  &:focus {
+    border: 2px solid orange;
+  }
+}
+
+.p-contact-form__email-validation {
+  color: red;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+.p-contact-form__contact-title {
+  font-weight: bold;
+  margin-bottom: -15px;
+  text-align: center;
+}

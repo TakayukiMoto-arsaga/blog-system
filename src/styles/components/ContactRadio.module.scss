@@ -1,0 +1,24 @@
+.c-contact-radio {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.c-contact-radio__label {
+  margin-right: 20px;
+
+  &:hover {
+    color: blue;
+  }
+}
+
+.c-contact-radio__label-last {
+  &:hover {
+    color: blue;
+  }
+}
+
+.c-contact-radio__validation {
+  color: red;
+  margin: 0 auto;
+}

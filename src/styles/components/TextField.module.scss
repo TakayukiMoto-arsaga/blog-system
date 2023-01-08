@@ -1,0 +1,22 @@
+.c-textarea-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.c-textarea {
+  border: 2px solid blue;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 5px 10px;
+  width: 90%;
+
+  &:focus {
+    border: 2px solid orange;
+  }
+}
+
+.c-textarea-validation {
+  color: red;
+  margin: 0 auto;
+}
